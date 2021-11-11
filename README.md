@@ -1,7 +1,7 @@
 ## nestjs-redis-module
 ```ts
 // app引入和使用
-import { RedisModule } from 'nestjs-redis-';
+import { RedisModule } from 'nestjs-redis-module';
 RedisModule.forRootAsync({
       imports: [],
       useFactory: async () => {
